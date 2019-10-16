@@ -23,7 +23,7 @@ if (player === "x"){
     player = "o";
 
     if( $(".game div div.top-left, .game div div.top-center, .game div div.top-right").children(".x").length === 3){
-        console.log("player x won !!");
+        alert("player x won !!");
         $(".container, .game div div").css("cursor", "not-allowed");
 
 
@@ -33,7 +33,7 @@ if (player === "x"){
 
 
     } else if( $(".game div div.third-left, .game div div.third-center, .game div div.third-right").children(".x").length === 3){
-        console.log("player x won !!");
+        alert("player x won !!");
         $(".container, .game div div").css("cursor", "not-allowed");
 
 
@@ -48,17 +48,17 @@ if (player === "x"){
 
 
     } else if( $(".game div div.top-right, .game div div.second-right, .game div div.third-right").children(".x").length === 3){
-        console.log("player x won !!");
+        alert("player x won !!");
         $(".container, .game div div").css("cursor", "not-allowed");
 
     } 
     else if( $(".game div div.top-left, .game div div.second-center, .game div div.third-right").children(".x").length === 3){
-        console.log("player x won !!");
+        alert("player x won !!");
         $(".container, .game div div").css("cursor", "not-allowed");
 
     }
     else if( $(".game div div.top-right, .game div div.second-center, .game div div.third-left").children(".x").length === 3){
-        console.log("player x won !!");
+        alert("player x won !!");
         $(".container, .game div div").css("cursor", "not-allowed");
 
     }
@@ -69,37 +69,37 @@ if (player === "x"){
     player = "x";
 
     if( $(".game div div.top-left, .game div div.top-center, .game div div.top-right").children(".o").length === 3){
-        console.log("player o won !!");
+        alert("player o won !!");
         $(".container, .game div div").css("cursor", "not-allowed");
 
     } else if( $(".game div div.second-left, .game div div.second-center, .game div div.second-right").children(".o").length === 3){
-        console.log("player o won !!");
+        alert("player o won !!");
         $(".container, .game div div").css("cursor", "not-allowed");
 
     } else if( $(".game div div.third-left, .game div div.third-center, .game div div.third-right").children(".o").length === 3){
-        console.log("player o won !!");
+        alert("player o won !!");
         $(".container, .game div div").css("cursor", "not-allowed");
 
     }else if( $(".game div div.top-left, .game div div.second-left, .game div div.third-left").children(".o").length === 3){
-        console.log("player o won !!");
+        alert("player o won !!");
         $(".container, .game div div").css("cursor", "not-allowed");
 
     } else if( $(".game div div.top-center, .game div div.second-center, .game div div.third-center").children(".o").length === 3){
-        console.log("player o won !!");
+        alert("player o won !!");
         $(".container, .game div div").css("cursor", "not-allowed");
 
     } else if( $(".game div div.top-right, .game div div.second-right, .game div div.third-right").children(".o").length === 3){
-        console.log("player o won !!");
+        alert("player o won !!");
         $(".container, .game div div").css("cursor", "not-allowed");
 
     } 
     else if( $(".game div div.top-left, .game div div.second-center, .game div div.third-right").children(".o").length === 3){
-        console.log("player o won !!");
+        alert("player o won !!");
         $(".container, .game div div").css("cursor", "not-allowed");
 
     } 
     else if( $(".game div div.top-right, .game div div.second-center, .game div div.third-left").children(".o").length === 3){
-        console.log("player o  won !!");
+        alert("player o  won !!");
         $(".container, .game div div").css("cursor", "not-allowed");
     }
 
