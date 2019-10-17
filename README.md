@@ -1,4 +1,9 @@
 # ProjectOne
+
+# Project Title
+Tic Tac Toe Game
+
+One Paragraph of project description goes here
 List technologies used : HTML . CSS , JQuery
 
 Link to wireframes and user stories: 
