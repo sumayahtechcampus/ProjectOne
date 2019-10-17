@@ -3,8 +3,8 @@
 # Project Title
 Tic Tac Toe Game
 
-One Paragraph of project description goes here
-List technologies used : HTML . CSS , JQuery
+## List technologies used :
+ HTML . CSS , JQuery
 
 Link to wireframes and user stories: 
 As a user, I should be able to start a new tic tac toe game
