@@ -1,5 +1,5 @@
 # ProjectOne
-List technologies used : HTML . CSS , JqUERY
+List technologies used : HTML . CSS , JQuery
 
 Link to wireframes and user stories: 
 As a user, I should be able to start a new tic tac toe game
